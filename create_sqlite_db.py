@@ -18,8 +18,7 @@ def create_sqlite_db():
     CREATE TABLE Hotel (
         id_Hotel INTEGER PRIMARY KEY,
         Nom TEXT,
-        Ville TEXT
-    );
+        Ville TEXT    );
 
     CREATE TABLE Client (
         id_Client INTEGER PRIMARY KEY,
